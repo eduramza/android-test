@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/mn_home"
+            android:checked="false"
+            android:icon="@drawable/ic_action_google_play"
+            android:title="Google" />
+
+        <item android:id="@+id/mn_notificar"
+            android:checked="false"
+            android:icon="@drawable/ic_notifications_active"
+            android:title="Notificar" />
+
+        <item android:id="@+id/mn_sair"
+            android:checked="false"
+            android:icon="@drawable/ic_action_exit"
+            android:title="Sair" />
+
+    </group>
+</menu>
